@@ -248,3 +248,11 @@ if args.rbm:
         columns=["genome1_protein","genome2_protein","pident"]
     )
     rbh_df.to_csv(args.rbm, index=False)
+#################################################################
+#################################################################
+# Example usage:
+# python aai_diamond.py \
+#   -1 proteins_1.faa \
+#   -2 proteins_2.proteins.faa \
+#   -i 20 -l 0 -s 50 -L 0.0 -n 50 -t 8
+#################################################################
