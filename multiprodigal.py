@@ -17,7 +17,7 @@ input_files = os.listdir(input_dir)
 
 # Process each .fna file
 for file in input_files:
-    if file.endswith(".fna"):
+    if file.endswith((".fna", ".fasta")):
         
         base_name = os.path.splitext(file)[0]
 
