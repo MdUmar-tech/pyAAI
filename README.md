@@ -43,6 +43,7 @@ python multiprodigal.py -i genomes_folder -o proteins_folder
 This will generate .faa protein files for each genome.
 
 Step 2: Run pyAAI
+'''
 python pyAAI.py \
     -i proteins_folder \
     -o all_vs_all_aai.csv \
@@ -53,7 +54,7 @@ python pyAAI.py \
     -L 0.0 \
     -n 50 \
     -t 8
-
+'''
 
 
 About
